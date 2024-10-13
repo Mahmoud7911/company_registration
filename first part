@@ -1,0 +1,7 @@
+// This is for the first part of the journey (before receiving an email)
+window.dataLayer.push({
+  'event': 'company_registration',
+  'company_url': 'www.example.com',  // URL of the company
+  'owner_email': 'Faisal@example.com',  // Owner's Email
+  'owner_phone_num': '+9661122334455'  // Owner's Phone number
+});
