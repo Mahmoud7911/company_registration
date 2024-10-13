@@ -1,0 +1,8 @@
+// This is for when a user sets his password, and he completes the signup process successfully
+window.dataLayer.push({
+  'event': 'company_registration_complete',
+  'company_id': '123456',  // Unique ID for the company (if available)
+  'owner_email': 'Faisal@example.com',  // Owner's Email
+  'owner_phone_num': '+9661122334455',  // Owner's Phone number
+  'signup_status': 'complete'  // Status indicating registration completion
+});
